@@ -16,7 +16,6 @@ public class TestLogin {
 	 @BeforeMethod
 	 public void setup() {
 		 String Url = "https://anvnacare.alwaysdata.net/";
-		 
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
