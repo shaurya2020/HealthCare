@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-10T20:14:41 IST" name="Default suite" finished-at="2026-10-10T20:15:12 IST" duration-ms="30724">
+  <suite started-at="2026-10-10T20:36:44 IST" name="Default suite" finished-at="2026-10-10T20:37:16 IST" duration-ms="31945">
     <groups>
     </groups>
-    <test started-at="2026-10-10T20:14:41 IST" name="Default test" finished-at="2026-10-10T20:15:12 IST" duration-ms="30724">
+    <test started-at="2026-10-10T20:36:44 IST" name="Default test" finished-at="2026-10-10T20:37:16 IST" duration-ms="31945">
       <class name="Login.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:14:41 IST" name="setup" finished-at="2026-10-10T20:14:44 IST" duration-ms="2693" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:36:44 IST" name="setup" finished-at="2026-10-10T20:36:48 IST" duration-ms="3307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="empatyCredentials()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:14:44 IST" name="empatyCredentials" finished-at="2026-10-10T20:14:54 IST" duration-ms="10210" status="FAIL">
+        <test-method signature="empatyCredentials()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:36:48 IST" name="empatyCredentials" finished-at="2026-10-10T20:36:58 IST" duration-ms="10226" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#greetingTitle"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.44.0', revision: 'da2039b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a50e49cca7dceddad4e7655eca82e17f, findElement {using=id, value=greetingTitle}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49414}, goog:processID: 42920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49414/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a50e49cca7dceddad4e7655eca82e17f]]>
+Command: [65b0008045fadd72d47d54a4bdc1c084, findElement {using=id, value=greetingTitle}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52648}, goog:processID: 24080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52648/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65b0008045fadd72d47d54a4bdc1c084]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#greetingTitle"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.44.0', revision: 'da2039b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a50e49cca7dceddad4e7655eca82e17f, findElement {using=id, value=greetingTitle}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49414}, goog:processID: 42920, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49414/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a50e49cca7dceddad4e7655eca82e17f
+Command: [65b0008045fadd72d47d54a4bdc1c084, findElement {using=id, value=greetingTitle}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52648}, goog:processID: 24080, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52648/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65b0008045fadd72d47d54a4bdc1c084
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -45,7 +45,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
-at Login.TestLogin.empatyCredentials(TestLogin.java:49)
+at Login.TestLogin.empatyCredentials(TestLogin.java:47)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -78,15 +78,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empatyCredentials -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:14:54 IST" name="teardown" finished-at="2026-10-10T20:14:55 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:36:58 IST" name="teardown" finished-at="2026-10-10T20:36:58 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:14:55 IST" name="setup" finished-at="2026-10-10T20:14:57 IST" duration-ms="2046" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:36:58 IST" name="setup" finished-at="2026-10-10T20:37:01 IST" duration-ms="2796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidcredential()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:14:57 IST" name="invalidcredential" finished-at="2026-10-10T20:15:07 IST" duration-ms="10201" status="FAIL">
+        <test-method signature="invalidcredential()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:37:01 IST" name="invalidcredential" finished-at="2026-10-10T20:37:11 IST" duration-ms="10221" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#greetingTitle"}
@@ -95,9 +95,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.44.0', revision: 'da2039b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f342c8862012795fd0af371baf29eae, findElement {using=id, value=greetingTitle}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57237}, goog:processID: 27316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57237/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f342c8862012795fd0af371baf29eae]]>
+Command: [1dabb15ce6d8c7598d635df2b08c2b42, findElement {using=id, value=greetingTitle}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60341}, goog:processID: 23316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60341/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dabb15ce6d8c7598d635df2b08c2b42]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#greetingTitle"}
@@ -106,9 +106,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.44.0', revision: 'da2039b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2f342c8862012795fd0af371baf29eae, findElement {using=id, value=greetingTitle}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57237}, goog:processID: 27316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57237/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2f342c8862012795fd0af371baf29eae
+Command: [1dabb15ce6d8c7598d635df2b08c2b42, findElement {using=id, value=greetingTitle}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60341}, goog:processID: 23316, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60341/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dabb15ce6d8c7598d635df2b08c2b42
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -153,19 +153,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidcredential -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:15:07 IST" name="teardown" finished-at="2026-10-10T20:15:07 IST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:37:11 IST" name="teardown" finished-at="2026-10-10T20:37:11 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:15:07 IST" name="setup" finished-at="2026-10-10T20:15:09 IST" duration-ms="2144" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:37:11 IST" name="setup" finished-at="2026-10-10T20:37:13 IST" duration-ms="2171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validCredntial()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:15:09 IST" name="validCredntial" finished-at="2026-10-10T20:15:12 IST" duration-ms="2829" status="PASS">
+        <test-method signature="validCredntial()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:37:13 IST" name="validCredntial" finished-at="2026-10-10T20:37:16 IST" duration-ms="2642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validCredntial -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:15:12 IST" name="teardown" finished-at="2026-10-10T20:15:12 IST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Login.TestLogin@28701274]" started-at="2026-10-10T20:37:16 IST" name="teardown" finished-at="2026-10-10T20:37:16 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
