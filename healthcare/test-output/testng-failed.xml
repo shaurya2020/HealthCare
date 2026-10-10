@@ -7,7 +7,6 @@
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="empatyCredentials"/>
           <include name="invalidcredential"/>
         </methods>
       </class> <!-- Login.TestLogin -->
