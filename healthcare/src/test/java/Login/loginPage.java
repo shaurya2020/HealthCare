@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 public class loginPage {
 	WebDriver driver;
 
-//	public static void main(String[] args) {
 	public loginPage(WebDriver driver) {
 		this.driver = driver;
 

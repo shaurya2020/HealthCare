@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -157,9 +156,8 @@ public class TestLogin {
 	public void logout() {
 		driver.quit();
 		loginTest.log(Status.INFO, "Logout");
-		System.out.println("Logout");
 	}
-	@AfterClass
+	@AfterSuite
 	public void teardown() {
 		report.flush();
 	
