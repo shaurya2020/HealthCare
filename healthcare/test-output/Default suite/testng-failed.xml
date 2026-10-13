@@ -3,27 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.TestLogin">
+      <class name="login.TestLogin">
         <methods>
-          <include name="empatyPassword"/>
-          <include name="usernamewithspace"/>
-          <include name="passwordwithspecialcharecter"/>
-          <include name="sqlinput"/>
           <include name="onStart"/>
-          <include name="invalidusername"/>
+          <include name="setup"/>
+          <include name="validCredntial"/>
           <include name="logout"/>
           <include name="teardown"/>
-          <include name="invalidPassward"/>
-          <include name="setup"/>
-          <include name="passwordwithspace"/>
-          <include name="empatyCredentials"/>
-          <include name="sqlinpassword"/>
-          <include name="empatyusername"/>
-          <include name="casesemsetivewithusernames"/>
-          <include name="invalidboth"/>
-          <include name="invalidcredential"/>
         </methods>
-      </class> <!-- Login.TestLogin -->
+      </class> <!-- login.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

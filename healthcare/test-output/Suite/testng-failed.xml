@@ -3,27 +3,27 @@
 <suite parallel="tests" name="Failed suite [Suite]">
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
-      <class name="Login.TestLogin">
+      <class name="login.TestLogin">
         <methods>
-          <include name="empatyPassword"/>
-          <include name="usernamewithspace"/>
-          <include name="passwordwithspecialcharecter"/>
-          <include name="sqlinput"/>
-          <include name="onStart"/>
-          <include name="invalidusername"/>
-          <include name="logout"/>
-          <include name="invalidPassward"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="empatyCredentials"/>
-          <include name="passwordwithspace"/>
-          <include name="sqlinpassword"/>
           <include name="empatyusername"/>
+          <include name="invalidcredential"/>
           <include name="casesemsetivewithusernames"/>
           <include name="invalidboth"/>
-          <include name="invalidcredential"/>
+          <include name="sqlinput"/>
+          <include name="passwordwithspecialcharecter"/>
+          <include name="invalidusername"/>
+          <include name="onStart"/>
+          <include name="usernamewithspace"/>
+          <include name="empatyPassword"/>
+          <include name="empatyCredentials"/>
+          <include name="passwordwithspace"/>
+          <include name="setup"/>
+          <include name="sqlinpassword"/>
+          <include name="logout"/>
+          <include name="teardown"/>
+          <include name="invalidPassward"/>
         </methods>
-      </class> <!-- Login.TestLogin -->
+      </class> <!-- login.TestLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]">
-  <test thread-count="5" parallel="tests" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.TestLogin">
+      <class name="login.TestLogin">
         <methods>
-          <include name="empatyPassword"/>
-          <include name="usernamewithspace"/>
-          <include name="passwordwithspecialcharecter"/>
-          <include name="sqlinput"/>
           <include name="onStart"/>
-          <include name="invalidusername"/>
-          <include name="logout"/>
-          <include name="invalidPassward"/>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="empatyCredentials"/>
-          <include name="passwordwithspace"/>
-          <include name="sqlinpassword"/>
-          <include name="empatyusername"/>
-          <include name="casesemsetivewithusernames"/>
-          <include name="invalidboth"/>
-          <include name="invalidcredential"/>
+          <include name="validCredntial"/>
+          <include name="logout"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- Login.TestLogin -->
+      </class> <!-- login.TestLogin -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

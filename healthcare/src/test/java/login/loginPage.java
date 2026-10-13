@@ -1,10 +1,12 @@
-package Login;
+package login;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class loginPage {
+public class loginPage extends TestLogin{
+	
+	
 	WebDriver driver;
 
 	public loginPage(WebDriver driver) {

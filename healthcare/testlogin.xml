@@ -2,9 +2,9 @@
 <suite parallel="tests" name="Suite">
   <test parallel="tests" name="Test">
     <classes>
-      <class name="Login.TestLogin"/>
+      <class name="login.TestLogin"/>
       <method>
-      	<include name = "public void validCredntial"> </include> 
+      	<include name = "validCredntial"> </include> 
       </method>
     </classes>
   </test> <!-- Test -->
