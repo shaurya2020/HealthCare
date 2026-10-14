@@ -57,12 +57,12 @@ public class TestLogin {
 	}
 
 	@Test
-	public void validCredntial(ITestResult result ) {
-		ExtentTest test = report.createTest(result.getName());
+	public void validCredntial( ) {
+//		ExtentTest test = report.createTest();
 		page.login("singh40@gmail.com", "Avii40@#");
 		Assert.assertTrue(driver.findElement(By.id("greetingTitle")).isDisplayed());
-//		loginTest.log(Status.INFO, "log in with validCredntial");
-		test.log(Status.PASS, "log in with validCredntial");
+		loginTest.log(Status.INFO, "log in with validCredntial");
+//		test.log(Status.PASS, "log in with validCredntial");
 	}
 
 	@Test
